@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container { 
+  height: 1000px;
+  position: relative;
+  
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+img {
+   max-width: 100%;
+  height: auto;
+}
+#example1 {
+  background: url('source/img/1.jpg') left top   no-repeat, url('source/img/2.jpg') center top no-repeat, url('source/img/3.jpg') right top no-repeat;
+  background-size: 40%;
+  padding: 15px;
+}
+
+</style>
+</head>
+	<body >
+		
+		<div id="example1">
+			
+			 <div class="container" > 
+				<p align="center"  style="color:white; font-size:175%"> HELLO </p>
+			</div>
+		</div>
+	</body>
+</html>
