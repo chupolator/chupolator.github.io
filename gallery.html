@@ -9,22 +9,16 @@ body, html {
   margin: 0;
   font-family: Arial;
   margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url('source/img/trainwide.png');
-
-  /* Full height */
+ 
+  background-image: url('source/img/trainwide2.jpg');
   background-size: cover;
-  height: 100vh; 
-
-  /* Center and scale the image nicely */
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   
 }
+
+
 .header {
   padding: 1px;
   text-align: center;
@@ -46,16 +40,15 @@ body, html {
     top: 0;
     left: 0;
     width: 100%;
-    height: 110px;
+    height: 75px;
     padding: 0;
     margin: 0;
 }
 #header #header-content {
-    margin: 10px;
+    margin: 5px;
 }
 .tab {
-  overflow: hidden;
-  
+  overflow: hidden; 
 }
 
 /* Style the buttons inside the tab */
@@ -67,7 +60,7 @@ body, html {
   cursor: pointer;
   padding: 20px 16px;
   transition: 0.3s;
-  font-size: 40px;
+  font-size: 20px;
   color: white;
 }
 
@@ -89,6 +82,37 @@ body, html {
   border-top: none;
 }
 
+#image {
+width: 100%;
+height: auto;
+max-width: 1500px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+}
+
+div.ex2::-webkit-scrollbar {
+	display: none;
+}	
+div.ex2 {
+	background-color: rgba(204, 204, 204, 0.3);
+	margin: auto;
+	height:870px;
+	width: 900px;
+	
+	
+	
+   overflow: auto;
+  position: relative;
+  top: 75px;
+  
+   -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  
+}
+
+
 </style>
 </head>
 <body>
@@ -99,13 +123,24 @@ body, html {
 			  <button class="tablinks" onclick="location.href = 'index.html';">Home</button>
 			  <button class="tablinks" onclick="location.href = 'gallery.html';">Gallery</button>
 			</div>
-
-		
 			
 		</div>
-	
+		
 	</div>
-	<div class="bg"></div>
+			<div class="ex2">
+				<h1>Long Exposure Series</h1>
+				<div id="image" align="center">
+					
+					<img src= "source/img/gallery/p (1).jpg" alt="1wfsfasfsa" width="95%"  >
+					
+					<img src= "source/img/gallery/p (2).jpg" alt="1wfsfasfsa" width="95%" >
+					
+					<img src= "source/img/gallery/p (3).jpg" alt="1wfsfasfsa" width="95%" >
+					
+					<img src= "source/img/gallery/p (4).jpg" alt="1wfsfasfsa" width="95%" >
+				</div>
+			</div>
+	
 	
 	
 </body>
